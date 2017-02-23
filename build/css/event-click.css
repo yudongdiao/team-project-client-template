@@ -1,0 +1,27 @@
+body {
+  padding-top: 60px;
+}
+
+.wrapper {
+   display: relative !important;
+   color: red;
+}
+
+.wrapper .glyphicon {
+  /*position: absolute;*/
+  top: -520px;
+  left: 358px;
+  font-size: 25px;
+   color: yellow;
+   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.wrapper .event {
+  /*position: absolute;*/
+  opacity: 0.5;
+  top: -520px;
+  left: 370px;
+  font-size: 10px;
+   /*color: yellow;
+   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+}

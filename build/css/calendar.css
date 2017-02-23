@@ -1,0 +1,45 @@
+
+    body {
+      line-height: 1.5;
+      margin: 30px;
+
+    }
+    .calendar {
+      background: rgba(0, 0, 0, .1);
+      border-radius: 15px;
+      box-sizing: border-box;
+      padding: 20px;
+      width: 100%;
+      height: 550px;
+    }
+    header {
+      overflow: clear;
+      position: relative;
+    }
+    h2 {
+      font-family: 'PT Sans Narrow', sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+      margin: 0 10 20px;
+      text-align: center;
+    }
+
+    table {
+      background: #fff;
+      border-collapse: collapse;
+      color: #222;
+      font-family: 'PT Sans', sans-serif;
+      font-size: 13px;
+      width: 100%;
+      height: 95%;
+    }
+    td {
+      border: 1px solid #ccc;
+      color: #444;
+      line-height: 22px;
+      text-align: center;
+    }
+    tr:first-child td {
+      color: #222;
+      font-weight: 900;
+    }
