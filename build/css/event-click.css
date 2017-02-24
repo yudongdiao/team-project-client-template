@@ -1,27 +1,42 @@
 body {
   padding-top: 60px;
+  background: url(img/campusmap.jpg);
 }
 
 .wrapper {
    display: relative !important;
    color: red;
+   /*opacity: .5;*/
 }
 
 .wrapper .glyphicon {
-  /*position: absolute;*/
-  top: -520px;
-  left: 358px;
+  position: absolute;
+  top: 52%;
+  left: 42%;
   font-size: 25px;
-   color: yellow;
-   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  color: yellow;
+  line-height: normal;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
-.wrapper .event {
-  /*position: absolute;*/
-  opacity: 0.5;
-  top: -520px;
-  left: 370px;
-  font-size: 10px;
-   /*color: yellow;
-   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+img {
+    opacity: 0.4;
+}
+
+.event {
+  background-color: #ffffff;
+  border-color:lightgrey;
+  position: absolute;
+  /*top: 500px;*/
+  /*left: 350px;*/
+  top: 47%;
+  left: 42%;
+  font-weight: bold;
+  line-height: 80%;
+  color: blue;
+  /*text-shadow: -1px 0 #6699ff, 0 1px #6699ff, 1px 0 #6699ff, 0 -1px #6699ff;*/
+  margin-bottom:0px; /*doesnt seem to do much*/
+  border-radius:10%;
+  border-style: solid;
+  text-align: center;
 }
