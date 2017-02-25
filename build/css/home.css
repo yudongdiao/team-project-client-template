@@ -43,3 +43,25 @@ body {
   line-height: normal;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
+
+.red {
+  color: red;
+}
+
+.green{
+  color: green;
+}
+
+.yellow {
+  /*not quite yellow*/
+  color: #E8CC71;
+}
+
+.grey {
+  color: #A6C8E8
+}
+
+.form-control-xxx {
+  width:200px;
+  display:inline;
+}

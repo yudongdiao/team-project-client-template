@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head;
          any other head content must come *after* these tags -->
-    <title>Home</title>
+    <title>Create New Event</title>
 
     <!-- Bootstrap's CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -101,55 +101,97 @@
      good answer here: http://stackoverflow.com/a/22263969 -->
 <div class="container">
   <!-- The row that contains the three main columns of the website. -->
-    <!-- MainFeed: A cell that spans 9 columns -->
-    <div class = "row">
-    <div class = "col-md-3">
-    <div class="input-group">
-      <input type="text" class="form-control" placeholder="Your Name" aria-describedby="basic-addon2">
-      <span class="input-group-addon" id="basic-addon2">First Last</span>
+      <!-- Main feed: A cell that spans 9 columns -->
+      <div class="col-md-9">
+        <h1> Create New Event </h1>
+           <span class="red">*</span> Event Title:
+          <br>
+            <input type="text" class="form-control" placeholder="Even Title (required)" size="10" required="required">
+          </br>
+           <span class="red">&nbsp</span> Venue Name：
+          <br>
+            <input type="text" class="form-control" placeholder="Venue Name" size="10">
+          </br>
+           <span class="red">*</span> Street Address:
+          <br>
+            <input type="text" class="form-control" placeholder="Street Address (required)" size="10" required="required">
+          </br>
+
+          <div class="DateAndTime">
+              <span class="red">*</span> Date & Time:
+                <input type="text" class="form-control form-control-xxx" placeholder="Ex: 10/18/2016" style="width:130px;" required="required">
+                <input type="text" class="form-control form-control-xxx" placeholder="From" style="width:130px;" required="required">
+                <input type="text" class="form-control form-control-xxx" placeholder="To" style="width:130px;" required="required">
+          </div>
+
+          <br><span class="red"></span> Upload Logo:
+          <font class="grey" size="1" >Your Image must be JPG or PNG and not exceed ? MB</font>
+            <br><img src="img/uploadImage.jpg" width="10%" /></br>
+          <br>
+            <button>Choose File</button>
+            <button>Submit</button>
+          </br>
+          <br><span class="red"></span> Event Description:</brs>
+          <br>
+            <textarea id="postbox"  rows="10" cols="100" name="post"></textarea>
+          </br>
+
+      </div>
+      <!-- Right sidebar: A cell that spans 3 columns -->
+      <div class="col-md-3">
+        <p> Temp Right Sidebar </p>
+        <ul class="media-list">
+          <li class="media">
+            <div class="media-left media-top">
+              <span class="glyphicon"></span>
+            </div>
+            <div class="media-body">
+              <a href="#">
+                <span class="glyphicon glyphicon-pencil"></span>
+                  Save
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
 
-    <div class = "col-md-3">
-    <div class="input-group">
-      <input type="text" class="form-control" placeholder="Location" aria-describedby="basic-addon2">
-      <span class="input-group-addon" id="basic-addon2"></span>
+    <!--Submit-Reset-Cancel bar-->
+    <div class="sbtn-group btn-group-justified" role="group" aria-label="...">
+      <div class="btn-group .green" role="group">
+        <a href=#>
+          <button type="button" class="btn btn-default">
+            <span class="green">
+              Submit!
+            </span>
+          </button>
+        </a>
+      </div>
+      <div class="btn-group" role="group">
+        <a href=#>
+          <button type="button" class="btn btn-default">
+            <span class="yellow">
+              Reset
+            </span>
+          </button>
+        </a>
+      </div>
+      <div class="btn-group" role="group">
+        <a href=#>
+          <button type="button" class="btn btn-default">
+            <span class="red">
+              Cancel
+            </span>
+          </button>
+        </a>
+      </div>
     </div>
-  </div>
-
-    <div class = "col-md-3">
-    <div class="input-group">
-      <input type="text" class="form-control" placeholder="Time" aria-describedby="basic-addon2">
-      <span class="input-group-addon" id="basic-addon2">AM/PM</span>
-    </div>
-  </div>
-
-    <div class = "col-md-3">
-    <div class="input-group">
-      <input type="text" class="form-control" placeholder="Phone Number" aria-describedby="basic-addon2">
-      <span class="input-group-addon" id="basic-addon2"></span>
-    </div>
-  </div>
-</div>
-
-</div>
-
-<div class="sbtn-group btn-group-justified" role="group" aria-label="...">
-  <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default">Submit!</button>
-  </div>
-  <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default">Reset</button>
-  </div>
-  <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default">Cancel</button>
-  </div>
-</div>
-
-
-
-
     <!-- ...and here. -->
+    <div style="height:100px;">
+
+    </div>
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below),
