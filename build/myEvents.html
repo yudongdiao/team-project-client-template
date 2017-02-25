@@ -105,7 +105,7 @@
     <!-- Event: A cell that spans 9 columns -->
     <div class="col-md-9">
       <h1> My Events </h1>
-      <div class="panel panel-default">
+      <div class="panel panel-default event-entry">
         <div class="panel-body">
           <!-- Event metadata -->
           <div class="row">
@@ -115,33 +115,36 @@
                   <img class = "media-object" src="img/W.E.B._DuBois_Library.jpg" style="height: 150px;"/>
                 </div>
                 <div class="media-body">
-                  <h3 class = "media-heading">Supplemental Instruction Review<a href="#"> (UMass LRC)</a></h3>
+                  <h3 class = "media-heading entry-heading">Supplemental Instruction Review<a href="#"> (UMass LRC)</a>
+                    <span class="input-group-btn">
+                      <button class="btn btn-default pull-right favorite-event" type="button">
+                        <span class="glyphicon glyphicon-star-empty favorite-text"></span>
+                      </button>
+                    </span>
+                  </h3>
                     <em> Tomorrow at 5:00 pm W.E.B. Dubois Library </em>
                     <!-- Event Content -->
                     <div class="row">
-                      <div class="col-md-12">
-                        <hr> Review Session for CMPSCI 250. Be there or be square!
+                      <div class="col-md-12 entry-font">
+                        <p> Review Session for CMPSCI 250. Be there or be square!
+                          More than just a review session!
                       </div>
                     </div>
                 </div>
               </div>
             </div>
           </div>
-          <hr>
+          <hr class = "break">
           <div class="row">
             <div class="col-md-12">
-              <ul class="list-inline">
+              <ul class="list-inline features-bar">
                 <li>
                   <a href="#"><span class="glyphicon glyphicon-pencil">
                   </span> Notes</a>
                 </li>
                 <li>
                 <a href="#"><span class="glyphicon glyphicon-comment">
-                    </span> Comment</a>
-                </li>
-                <li>
-                <a href="#"><span class="glyphicon glyphicon-share-alt">
-                    </span> Share</a>
+                </span> Reviews</a>
                 </li>
               </ul>
             </div>
