@@ -4,12 +4,12 @@ body {
 }
 
 .wrapper {
-   display: relative !important;
+   display: relative;
    color: red;
    /*opacity: .5;*/
 }
 
-.wrapper .glyphicon {
+.wrapper .goodell_lawn {
   position: absolute;
   top: 52%;
   left: 42%;
@@ -29,7 +29,7 @@ img {
   position: absolute;
   /*top: 500px;*/
   /*left: 350px;*/
-  top: 47%;
+  top: 44.5%;
   left: 42%;
   font-weight: bold;
   line-height: 80%;
@@ -39,4 +39,10 @@ img {
   border-radius:10%;
   border-style: solid;
   text-align: center;
+}
+
+p {
+margin: 2px;
+padding: 3px;
+line-height: 110%;
 }
