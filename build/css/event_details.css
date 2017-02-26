@@ -28,8 +28,8 @@ body {
 
 .favorite-event:hover {
   /*background: #ffff1a;*/
-  background-color: #ffff1a;
-  color: #00ff00;
+  background-color: none;
+  color: #cccc00;
 }
 
 .break {
