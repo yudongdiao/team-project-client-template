@@ -5,7 +5,7 @@ body {
 .sbtn-group{
   position: fixed;
   bottom: 0px;
-  right: 20px;
+  right: 0px;
   /* Applies the given border style to all sides. */
   border: 1px solid #000;
   /* Removes the border on the bottom. */
