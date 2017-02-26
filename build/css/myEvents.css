@@ -28,16 +28,16 @@ body {
 
 .favorite-event:hover {
   /*background: #ffff1a;*/
-  background-color: #ffff1a;
-  color: #00ff00;
+  background-color: none;
+  color: #cccc00;
 }
 
 .break {
   border-width: 2px;
   border-color: #990000;
   padding: 0;
-  margin-bottom: 7px;
-  margin-top: 7px;
+  margin-bottom: 11px;
+  margin-top: 11px;
 }
 
 .features-bar {
