@@ -58,10 +58,19 @@ body {
 }
 
 .grey {
-  color: #A6C8E8
+  color: #A6C8E8;
 }
 
 .form-control-xxx {
   width:200px;
   display:inline;
+}
+
+.event-list{
+margin-left: 15px;
+margin-top : 10px;
+}
+
+.sidebar-pills{
+  margin-top: 50px;
 }
