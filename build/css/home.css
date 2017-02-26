@@ -95,3 +95,8 @@ margin-top : 10px;
 .sidebar-pills{
   margin-top: 50px;
 }
+
+.center-date {
+    margin: auto;
+    width: 33%;
+  }
