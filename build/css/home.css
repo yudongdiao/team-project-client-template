@@ -1,5 +1,26 @@
 body {
   padding-top: 60px;
+  background-color: #8e0000;
+}
+
+.navbar {
+  background-color: #470000;
+  border-color: #470000;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+  font-weight: 700;
+}
+
+.navbar-btn {
+  color: white;
+  background-color: black;
+  border-color: black;
 }
 
 .sbtn-group{
@@ -76,3 +97,8 @@ margin-top : 10px;
 .sidebar-pills{
   margin-top: 50px;
 }
+
+.center-date {
+    margin: auto;
+    width: 33%;
+  }

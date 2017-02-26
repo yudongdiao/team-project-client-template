@@ -1,10 +1,31 @@
 body {
   padding-top: 60px;
+  background-color: #8e0000;
+}
+
+.navbar {
+  background-color: #470000;
+  border-color: #470000;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+  font-weight: 700;
+}
+
+.navbar-btn {
+  color: white;
+  background-color: black;
+  border-color: black;
 }
 
 .event-entry {
   border-width: thick;
-  border-color: #990000;
+  border-color: #470000;
 }
 
 .entry-font {
@@ -34,7 +55,7 @@ body {
 
 .break {
   border-width: 2px;
-  border-color: #990000;
+  border-color: #470000;
   padding: 0;
   margin-bottom: 11px;
   margin-top: 11px;
