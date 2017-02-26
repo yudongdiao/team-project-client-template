@@ -65,12 +65,17 @@ body {
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
-.red {
-  color: red;
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: black;
+  background-color: firebrick;
+  border-radius: 10%;
 }
 
-.green{
-  color: green;
+.grey{
+  color: darkgrey;
 }
 
 .yellow {
@@ -78,9 +83,6 @@ body {
   color: #E8CC71;
 }
 
-.grey {
-  color: #A6C8E8;
-}
 
 .form-control-xxx {
   width:200px;
