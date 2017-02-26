@@ -1,5 +1,26 @@
 body {
   padding-top: 60px;
+  background-color: #8e0000;
+}
+
+.navbar {
+  background-color: #470000;
+  border-color: #470000;
+}
+
+.white{
+  color:white;
+}
+
+.black {
+  color:black;
+  font-weight: 700;
+}
+
+.navbar-btn {
+  color: white;
+  background-color: black;
+  border-color: black;
 }
 
 .sbtn-group{
@@ -7,11 +28,11 @@ body {
   bottom: 0px;
   right: 0px;
   /* Applies the given border style to all sides. */
-  border: 1px solid #000;
+  border: 2px solid black;
   /* Removes the border on the bottom. */
   border-bottom: none;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
+  border-top-left-radius: 3px solid black;
+  border-top-right-radius: 3px solid black;
 }
 
 .goodell_lawn {
@@ -64,4 +85,29 @@ body {
 .form-control-xxx {
   width:200px;
   display:inline;
+}
+
+input[type=text] {
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+input[type=date] {
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+input[type=time] {
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+textarea{
+  border: 2px solid black;
+  boarder-radius: 4px;
+}
+
+button{
+  border: 2px solid black;
+  border-radius: 4px;
 }
