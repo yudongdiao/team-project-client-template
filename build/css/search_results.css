@@ -1,7 +1,30 @@
-.yellow {
-  color: #f4eb41;
+.favorite-event {
+  font-size: 20px;
+  color: #ffff1a;
+  border-radius: 0px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
 }
 .text_padding
 {
-  vertical-align: text-top;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white
+}
+.navbar {
+  background-color: #470000;
+  border-color: #470000;
+}
+.navbar-btn {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+.black {
+  color: black;
+  font-weight: 700;
+}
+body {
+  background-color: #8e0000
 }
