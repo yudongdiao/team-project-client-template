@@ -39,7 +39,7 @@
           <!-- Use a "home" glyphicon as a logo. -->
           <a class="navbar-brand" href="#">
             <!-- This is how you display a glyphicon. -->
-            <span class="glyphicon glyphicon-home"></span>
+            <span class="glyphicon glyphicon-home white"></span>
           </a>
         </div>
 
@@ -103,35 +103,41 @@
   <!-- The row that contains the three main columns of the website. -->
       <!-- Main feed: A cell that spans 9 columns -->
       <div class="col-md-9">
-        <h1> Create New Event </h1>
-           <span class="red">*</span> Event Title:
+        <h1 class="black"> Create New Event </h1>
+           <span class="red">*</span>
+           <span class="black">Event Title:</span>
           <br>
             <input type="text" class="form-control" placeholder="Even Title (required)" size="10" required="required">
           </br>
-           <span class="red">&nbsp</span> Venue Name：
+           <span class="red">&nbsp</span>
+           <span class="black">Venue Name：</span>
           <br>
             <input type="text" class="form-control" placeholder="Venue Name" size="10">
           </br>
-           <span class="red">*</span> Street Address:
+           <span class="red">*</span>
+           <span class="black">Street Address:</span>
           <br>
             <input type="text" class="form-control" placeholder="Street Address (required)" size="10" required="required">
           </br>
 
           <div class="DateAndTime">
-              <span class="red">*</span> Date & Time:
+              <span class="red">*</span>
+              <span class="black">Date & Time:</span>
                 <input type="date" class="form-control form-control-xxx" placeholder="Ex: 10/18/2016" style="width:200px;" required="required">
                 <input type="time" class="form-control form-control-xxx" placeholder="From" style="width:140px;" required="required">
                 <input type="time" class="form-control form-control-xxx" placeholder="To" style="width:140px;" required="required">
           </div>
 
-          <br><span class="red"></span> Upload Logo:
+          <br><span class="red"></span>
+          <span class="black">Upload Logo:</span>
           <font class="grey" size="1" >Your Image must be JPG or PNG and not exceed ? MB</font>
             <br><img src="img/uploadImage.jpg" width="10%" /></br>
           <br>
             <button>Choose File</button>
             <button>Submit</button>
           </br>
-          <br><span class="red"></span> Event Description:</brs>
+          <br><span class="red"></span></br>
+            <span class="black">Event Description:</span>
           <br>
             <textarea id="postbox"  rows="10" cols="100" name="post"></textarea>
           </br>
@@ -147,8 +153,8 @@
             </div>
             <div class="media-body">
               <a href="#">
-                <span class="glyphicon glyphicon-pencil"></span>
-                  Save
+                <span class="glyphicon glyphicon-saved"></span>
+                  Save & close
               </a>
             </div>
           </li>
