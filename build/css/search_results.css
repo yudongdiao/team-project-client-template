@@ -12,9 +12,32 @@
   padding-bottom: 10px;
   background-color: white
 }
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-radius: 10%;
+}
+.right-events {
+  color: black;
+  font-weight: bold;
+}
+.white {
+  color: white;
+}
+.sidebar-pills{
+  margin-top: 28%;
+}
 .navbar {
   background-color: #470000;
   border-color: #470000;
+}
+.navbar-btn {
+  color: white;
+  background-color: black;
+  border-color: black;
 }
 .navbar-btn {
   color: white;
@@ -25,6 +48,23 @@
   color: black;
   font-weight: 700;
 }
+
+.event-entry {
+  border-width: thick;
+  border-color: #470000;
+}
+.entry-font {
+  padding-top: 15px;
+  /*color: #00ff00;*/
+}
+
+.entry-heading {
+  font-size: 28px;
+  display: table-row;
+}
 body {
-  background-color: #8e0000
+  padding-top: 60px;
+  background: linear-gradient(90deg, #a43939 77%, #8e0000 23%);
+
+  /*background-color: #8e0000;*/
 }
