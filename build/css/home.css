@@ -1,6 +1,7 @@
 body {
   padding-top: 60px;
-  background: linear-gradient(90deg, white 72%, #8e0000 28%);
+  /*background: linear-gradient(90deg, white 73.5%, #8e0000 26.5%);*/
+  background: linear-gradient(90deg, #a43939 77%, #8e0000 23%);
   /*background-color: #8e0000;*/
 }
 
@@ -68,7 +69,7 @@ body {
   border-radius: 10%;
 }
 
-.media-body >
+/*.media-body >*/
 a {
   color: white;
 }
@@ -83,23 +84,16 @@ a {
 
 .center-date {
     margin: auto;
-    width: 33%;
+    width: 34%;
     /*color: lightgrey;*/
     /*background: #8e0000;*/
   }
 
+  .event-list{
+  margin-left: 0px;
+  margin-top : 4%;
+  }
 
-
-.form-control-xxx {
-  width:200px;
-  display:inline;
-}
-
-.event-list{
-margin-left: 15px;
-margin-top : 10px;
-}
-
-.sidebar-pills{
-  margin-top: 50px;
-}
+  .sidebar-pills{
+    margin-top: 28%;
+  }

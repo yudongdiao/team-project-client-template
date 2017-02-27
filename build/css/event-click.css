@@ -2,7 +2,17 @@ body {
   padding-top: 60px;
   /*background: url(img/campusmap.jpg);*/
   /*background-color: #8e0000;*/
-  background: linear-gradient(90deg, white 72%, #8e0000 28%);
+  /*background: linear-gradient(90deg, white 72%, #8e0000 28%);*/
+  background: linear-gradient(90deg, #a43939 77%, #8e0000 23%);
+}
+
+.event-list{
+margin-left: 0px;
+margin-top : 4%;
+}
+
+.sidebar-pills{
+  margin-top: 28%;
 }
 
 .navbar {
@@ -23,7 +33,12 @@ body {
 }
 /*navbar-btn: add this class to all nav bar buttons*/
 
-.media-body >
+.center-date {
+    margin: auto;
+    width: 34%;
+  }
+
+/*.media-body >*/
 a {
   color: white;
 }
@@ -47,13 +62,20 @@ a {
 
 .wrapper {
    display: relative;
-   color: red;
+   /*color: red;*/
    /*opacity: .5;*/
 }
 
-.wrapper .goodell_lawn {
+
+p {
+margin: 2px;
+padding: 3px;
+line-height: 110%;
+}
+
+ .goodell_lawn {
   position: absolute;
-  top: 52%;
+  top: 53%;
   left: 42%;
   font-size: 25px;
   color: yellow;
@@ -61,9 +83,9 @@ a {
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
-img {
+/*.wrapper > img {
     opacity: 0.4;
-}
+}*/
 
 .event {
   background-color: #ffffff;
@@ -71,7 +93,7 @@ img {
   position: absolute;
   /*top: 500px;*/
   /*left: 350px;*/
-  top: 44.5%;
+  top: 45.5%;
   left: 42%;
   font-weight: bold;
   line-height: 80%;
@@ -81,10 +103,4 @@ img {
   border-radius:10%;
   border-style: solid;
   text-align: center;
-}
-
-p {
-margin: 2px;
-padding: 3px;
-line-height: 110%;
 }

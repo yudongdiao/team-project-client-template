@@ -1,8 +1,17 @@
 body {
   padding-top: 60px;
-  background-color: #8e0000;
+  background: linear-gradient(90deg, #a43939 77%, #8e0000 23%);
 }
 
+
+.event-list{
+margin-left: 0px;
+margin-top : 4%;
+}
+
+.sidebar-pills{
+  margin-top: 28%;
+}
 
 .navbar {
   background-color: #470000;
@@ -27,6 +36,8 @@ body {
 
 /*make home button white*/
 /*add in right sidebar - fix on html file: make sure that the row is split into 9 and 3 columns (</div> is in the wrong place)*/
+
+
 
 .media-body >
 a {
