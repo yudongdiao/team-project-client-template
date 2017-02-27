@@ -2,25 +2,52 @@
     body {
       line-height: 1.5;
       margin: 30px;
+      background-color: #DCDCDC;
 
     }
+
+    .white {
+      color: white;
+    }
+    .navbar {
+      background-color: #470000;
+      border-color: #470000;
+    }
+    .navbar-btn {
+      color: white;
+      background-color: black;
+      border-color: black;
+    }
     .calendar {
-      background: rgba(0, 0, 0, .1);
-      border-radius: 15px;
+
+      border-radius: 5px;
       box-sizing: border-box;
       padding: 20px;
       width: 100%;
-      height: 550px;
+      height: 500px;
     }
+    button {
+      position: absolute;
+      top: 10px;
+      background-color: white;
+    }
+
+        button:first-child {
+          left: 0;
+        }
+        button:last-child {
+          right: 0;
+        }
+
     header {
-      overflow: clear;
-      position: relative;
+    position: relative;
     }
+
     h2 {
       font-family: 'PT Sans Narrow', sans-serif;
       font-size: 30px;
       font-weight: 700;
-      margin: 0 10 20px;
+      margin: 10px 20px 20px;
       text-align: center;
     }
 
@@ -34,12 +61,17 @@
       height: 95%;
     }
     td {
-      border: 1px solid #ccc;
-      color: #444;
-      line-height: 22px;
+      border: 1px solid black;
       text-align: center;
     }
     tr:first-child td {
       color: #222;
       font-weight: 900;
+      font-size: 15px;
+
+    }
+
+    .event{
+      background-color: #ADD8E6;
+      font-weight: bold;
     }
