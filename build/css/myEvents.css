@@ -21,7 +21,7 @@ body {
 
 .media-body:hover >
 a {
-  color: white;
+  color: black;
 }
 
 .nav-pills > li.active > a,

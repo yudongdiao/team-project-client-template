@@ -65,14 +65,20 @@ body {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: black;
-  background-color: firebrick;
+  background-color: white;
+  border-color: black;
   border-radius: 10%;
 }
 
 /*.media-body >*/
-a {
+/*a {
   color: white;
+}*/
+
+.date {
+  color: black;
 }
+
 
 .grey {
   color: darkgrey;
@@ -82,17 +88,23 @@ a {
   color: white;
 }
 
+.right-events {
+  color: black;
+  font-weight: bold;
+}
+
 .center-date {
     margin: auto;
     width: 34%;
-    /*color: lightgrey;*/
+    color: black;
+    font-weight: bold;
     /*background: #8e0000;*/
   }
 
-  .event-list{
+  /*.event-list{
   margin-left: 0px;
   margin-top : 4%;
-  }
+  }*/
 
   .sidebar-pills{
     margin-top: 28%;

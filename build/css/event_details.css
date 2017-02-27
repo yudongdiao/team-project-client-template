@@ -4,9 +4,9 @@ body {
 }
 
 
-.event-list{
-margin-left: 0px;
-margin-top : 4%;
+.right-events {
+  color: black;
+  font-weight: bold;
 }
 
 .sidebar-pills{
@@ -41,7 +41,8 @@ margin-top : 4%;
 
 .media-body >
 a {
-  color: white;
+  color: black;
+  font-weight: bold;
 }
 
 .grey {
@@ -56,7 +57,8 @@ a {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: black;
-  background-color: firebrick;
+  background-color: white;
+  border-color: black;
   border-radius: 10%;
 }
 
