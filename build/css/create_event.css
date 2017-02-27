@@ -85,6 +85,10 @@ a {
   font-weight: bold;
 }
 
+.sidebar-pills {
+  margin-top: 28%;
+}
+
 .red {
   color: red;
 }
