@@ -1,7 +1,49 @@
 body {
   padding-top: 60px;
-  background: url(img/campusmap.jpg);
+  /*background: url(img/campusmap.jpg);*/
+  /*background-color: #8e0000;*/
+  background: linear-gradient(90deg, white 72%, #8e0000 28%);
 }
+
+.navbar {
+  background-color: #470000;
+  border-color: #470000;
+}
+
+
+.black {
+  color: black;
+  font-weight: 700;
+}
+
+.navbar-btn {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+/*navbar-btn: add this class to all nav bar buttons*/
+
+.media-body >
+a {
+  color: white;
+}
+
+.grey {
+  color: darkgrey;
+}
+
+.white{
+  color: white;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: black;
+  background-color: firebrick;
+  border-radius: 10%;
+}
+
 
 .wrapper {
    display: relative;
