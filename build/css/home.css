@@ -1,6 +1,5 @@
 body {
   padding-top: 60px;
-  /*background: linear-gradient(90deg, white 73.5%, #8e0000 26.5%);*/
   background: linear-gradient(90deg, #a43939 77%, #8e0000 23%);
   /*background-color: #8e0000;*/
 }
@@ -80,14 +79,6 @@ body {
 }
 
 
-.grey {
-  color: darkgrey;
-}
-
-.white{
-  color: white;
-}
-
 .right-events {
   color: black;
   font-weight: bold;
@@ -95,10 +86,10 @@ body {
 
 .center-date {
     margin: auto;
-    width: 34%;
+    width: 33%;
     color: black;
     font-weight: bold;
-    /*background: #8e0000;*/
+    /*background: white;*/
   }
 
   /*.event-list{
