@@ -13,6 +13,29 @@ body {
   font-weight: 700;
 }
 
+.white {
+  color: white;
+}
+
+.media-body:hover >
+a {
+  color: white;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-radius: 10%;
+}
+
+.right-events {
+  color: black;
+  font-weight: bold;
+}
+
 .navbar-btn {
   color: white;
   background-color: black;
