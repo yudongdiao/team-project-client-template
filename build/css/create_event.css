@@ -1,7 +1,7 @@
 body {
   padding-top: 60px;
   /*background-color: #8e0000;*/
-  background: linear-gradient(90deg, white 72%, #8e0000 28%);
+  background: linear-gradient(90deg, #a43939 76%, #8e0000 28%);
 }
 
 .navbar {
@@ -64,6 +64,25 @@ body {
   color: yellow;
   line-height: normal;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.media-body:hover >
+a {
+  color: white;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-radius: 10%;
+}
+
+.right-events {
+  color: black;
+  font-weight: bold;
 }
 
 .red {

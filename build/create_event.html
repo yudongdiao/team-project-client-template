@@ -51,7 +51,7 @@
             <!-- Right-aligned items. -->
 
             <div class="input-group">
-           <input type="text" class="form-control" placeholder="Search Umass">
+           <input type="search" class="form-control" placeholder="Search Umass">
            <span class="input-group-btn">
              <button type="submit" class="btn btn-default">
                <span class="glyphicon glyphicon-search"></span>
@@ -125,6 +125,7 @@
               <span class="black">Date & Time:</span>
                 <input type="date" class="form-control form-control-xxx" placeholder="Ex: 10/18/2016" style="width:200px;" required="required">
                 <input type="time" class="form-control form-control-xxx" placeholder="From" style="width:140px;" required="required">
+                <h>-</h>
                 <input type="time" class="form-control form-control-xxx" placeholder="To" style="width:140px;" required="required">
           </div>
 
@@ -144,34 +145,57 @@
 
       </div>
       <!-- Right sidebar: A cell that spans 3 columns -->
-      <div class="col-md-3">
-        <ul class="media-list">
-          <li class="media">
-            <div class="media-left media-top">
-              <span class="glyphicon"></span>
-            </div>
-            <div class="media-body">
-              <a href="#">
-                <span class="glyphicon glyphicon-saved"></span>
-                  <font size="5">Save & close</font>
-              </a>
-            </div>
-          </li>
-          <li class="media">
-            <div class="media-left media-top">
-              <span class="glyphicon"></span>
-            </div>
-            <div class="media-body">
-              <a href="#">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                  <font size="5">Save & Add</font>
-              </a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
+      <div class = "col-md-2 pull-right">
+            <div class="row">
+              <div class="col-md-12 sidebar-pills">
+                <p></p>
+                <ul class="nav nav-pills">
+                  <li role="presentation">
+                    <a href="#" class = "btn btn-default navbar-btn">
+                      <span class="glyphicon glyphicon-fire"></span>
+                    </a>
+                  </li>
+                  <li role="presentation">
+                    <a href="#" class = "btn btn-default navbar-btn">
+                      <span class="glyphicon glyphicon-star"></span>
+                      </a>
+                    </li>
+                  <li role="presentation">
+                    <a href="#" class = "btn btn-default navbar-btn">
+                      <span class="glyphicon glyphicon-filter"></span>
+                    </a>
+                  </li>
+                </ul>
 
+              </div>
+            </div>
+            <div class = "row  event-list">
+              <ul class="media-list">
+                <li class="media">
+                </li>
+                <li class="media">
+                  <div class="media-left media-top">
+                    <span class="glyphicon glyphicon-ok green"></span>
+                  </div>
+                  <div class="media-body">
+                    <a href="#" class = "right-events">Save & Close</a>
+                  </div>
+                </li>
+                <li class="media">
+                  <div class="media-left media-top">
+                    <span class="glyphicon glyphicon-arrow-right yellow"></span>
+                  </div>
+                  <div class="media-body">
+                    <a href="#" class = "right-events">Save & Add</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+    <!--right side bar ends here-->
+  </div>
+
+    <!-- ...and here. -->
     <!--Submit-Reset-Cancel bar-->
     <div class="sbtn-group btn-group-justified" role="group" aria-label="...">
       <div class="btn-group" role="group">
@@ -201,8 +225,7 @@
           </button>
         </a>
       </div>
-    </div>
-    <!-- ...and here. -->
+    </div><!--submit-cancel buttoms end here-->
     <div style="height:100px;">
 
     </div>
