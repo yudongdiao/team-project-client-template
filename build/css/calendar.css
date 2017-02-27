@@ -59,6 +59,7 @@
       font-size: 13px;
       width: 100%;
       height: 95%;
+      table-layout: fixed;
     }
     td {
       border: 1px solid black;
@@ -74,4 +75,9 @@
     .event{
       background-color: #ADD8E6;
       font-weight: bold;
+      border-style: outset;
+      box-shadow: 0 2px 2px grey inset;
+    }
+    .star{
+      text-align: right;
     }
