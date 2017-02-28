@@ -33,6 +33,17 @@ a {
   border-radius: 10%;
 }
 
+.event-links {
+  color: black;
+  font-weight: bold;
+
+
+}
+
+.event-links:hover {
+  color: #8e0000;
+}
+
 .right-events {
   color: black;
   font-weight: bold;
