@@ -1,6 +1,6 @@
 body {
   padding-top: 60px;
-  background: linear-gradient(90deg, #a43939 77%, #8e0000 23%);
+  background: linear-gradient(90deg, #a43939 80%, #8e0000 20%);
 
   /*background-color: #8e0000;*/
 }
@@ -21,7 +21,7 @@ body {
 
 .media-body:hover >
 a {
-  color: white;
+  color: black;
 }
 
 .nav-pills > li.active > a,

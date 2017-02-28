@@ -1,7 +1,6 @@
 body {
   padding-top: 60px;
-  /*background: linear-gradient(90deg, white 73.5%, #8e0000 26.5%);*/
-  background: linear-gradient(90deg, #a43939 77%, #8e0000 23%);
+  background: linear-gradient(90deg, #a43939 80%, #8e0000 20%);
   /*background-color: #8e0000;*/
 }
 
@@ -65,34 +64,38 @@ body {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: black;
-  background-color: firebrick;
+  background-color: white;
+  border-color: black;
   border-radius: 10%;
 }
 
 /*.media-body >*/
-a {
+/*a {
   color: white;
+}*/
+
+.date {
+  color: black;
 }
 
-.grey {
-  color: darkgrey;
-}
 
-.white{
-  color: white;
+.right-events {
+  color: black;
+  font-weight: bold;
 }
 
 .center-date {
     margin: auto;
-    width: 34%;
-    /*color: lightgrey;*/
-    /*background: #8e0000;*/
+    width: 33%;
+    color: black;
+    font-weight: bold;
+    /*background: white;*/
   }
 
-  .event-list{
+  /*.event-list{
   margin-left: 0px;
   margin-top : 4%;
-  }
+  }*/
 
   .sidebar-pills{
     margin-top: 28%;

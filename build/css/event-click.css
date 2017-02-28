@@ -1,14 +1,12 @@
 body {
   padding-top: 60px;
   /*background: url(img/campusmap.jpg);*/
-  /*background-color: #8e0000;*/
   /*background: linear-gradient(90deg, white 72%, #8e0000 28%);*/
-  background: linear-gradient(90deg, #a43939 77%, #8e0000 23%);
+  background: linear-gradient(90deg, #a43939 80%, #8e0000 20%);
 }
 
-.event-list{
-margin-left: 0px;
-margin-top : 4%;
+.dim {
+  filter: brightness(65%);
 }
 
 .sidebar-pills{
@@ -35,17 +33,20 @@ margin-top : 4%;
 
 .center-date {
     margin: auto;
-    width: 34%;
+    width: 33%;
+    color: black;
+    font-weight: bold;
   }
 
-/*.media-body >*/
-a {
-  color: white;
+.date {
+  color: black;
 }
 
-.grey {
-  color: darkgrey;
-}
+/*.media-body >*/
+/*date > a {
+  color: white;
+  font-weight:bold;
+}*/
 
 .white{
   color: white;
@@ -54,26 +55,31 @@ a {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  color: black;
+  /*color: black;
   background-color: firebrick;
+  border-radius: 10%;*/
+  color: black;
+  background-color: white;
+  border-color: black;
   border-radius: 10%;
 }
 
+.right-events {
+  color: black;
+  font-weight: bold;
+}
 
 .wrapper {
    display: relative;
-   /*color: red;*/
-   /*opacity: .5;*/
 }
 
-
-p {
+.event > p {
 margin: 2px;
 padding: 3px;
 line-height: 110%;
 }
 
- .goodell_lawn {
+.goodell_lawn {
   position: absolute;
   top: 53%;
   left: 42%;
@@ -83,23 +89,16 @@ line-height: 110%;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
-/*.wrapper > img {
-    opacity: 0.4;
-}*/
-
 .event {
   background-color: #ffffff;
   border-color:lightgrey;
   position: absolute;
-  /*top: 500px;*/
-  /*left: 350px;*/
   top: 45.5%;
   left: 42%;
   font-weight: bold;
   line-height: 80%;
   color: blue;
   /*text-shadow: -1px 0 #6699ff, 0 1px #6699ff, 1px 0 #6699ff, 0 -1px #6699ff;*/
-  margin-bottom:0px; /*doesnt seem to do much*/
   border-radius:10%;
   border-style: solid;
   text-align: center;

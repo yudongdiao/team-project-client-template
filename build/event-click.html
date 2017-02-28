@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head;
          any other head content must come *after* these tags -->
-    <title>Home</title>
+    <title>Event Click</title>
 
     <!-- Bootstrap's CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -24,7 +24,7 @@
 
      Confused? Try switching between the two container classes once you have a
      complete navbar to see the difference. -->
-    <div class="container">
+    <div class="container-fluid">
       <!-- This code is only active when viewing the site on mobile. We will not
            cover responsive design, but we'll leave this in, as it's part of the
            example code.-->
@@ -97,7 +97,7 @@
          within a grid, you should not define another `container`)
          What's the difference between these two types of container? There's a
          good answer here: http://stackoverflow.com/a/22263969 -->
-    <div class="container">
+    <div class="container-fluid">
       <!-- The row that contains the three main columns of the website. -->
       <div class="row">
         <!-- Map: A cell that spans 9 columns -->
@@ -108,16 +108,16 @@
 
             <ul class="nav nav-pills text-center center-date">
             <li role="presentation">
-              <a href="#"><span class="glyphicon glyphicon-chevron-left"></span>
+              <a href="#" class = "date"><span class="glyphicon glyphicon-chevron-left"></span>
               2/25/2017</a>
             </li>
 
             <li role="presentation">
-              <a href="#"><span class="glyphicon glyphicon-calendar"></span></a>
+              <a href="#"class = "date"><span class="glyphicon glyphicon-calendar"></span></a>
               <p>2/26/2017</p>
             </li>
               <li role="presentation">
-                <a href="#">
+                <a href="#"class = "date">
                 2/27/2017<span class="glyphicon glyphicon-chevron-right"></span></a>
               </li>
             </ul>
@@ -125,7 +125,7 @@
 
 
           <div class="wrapper">
-            <img src="img/campusmap.jpg" width = "100%"/>
+            <img class = "dim" src="img/campusmap.jpg" width = "100%"/>
           </div>
             <!-- <span class="glyphicon glyphicon-pushpin"></span> -->
             <div class = "event">
@@ -150,13 +150,13 @@
               <p></p>
               <ul class="nav nav-pills">
                 <li role="presentation" class="active">
-                  <a href="#"><span class="glyphicon glyphicon-fire"></span></a>
+                  <a href="#" class = "btn btn-default navbar-btn"><span class="glyphicon glyphicon-fire"></span></a>
                 </li>
-                <li role="presentation"><a href="#">
-                    <span class="glyphicon glyphicon-star grey"></span>
+                <li role="presentation"><a href="#" class = "btn btn-default navbar-btn">
+                    <span class="glyphicon glyphicon-star"></span>
                     </a></li>
-                <li role="presentation"><a href="#">
-                    <span class="glyphicon glyphicon-filter grey"></span>
+                <li role="presentation"><a href="#" class = "btn btn-default navbar-btn">
+                    <span class="glyphicon glyphicon-filter"></span>
                     </a></li>
               </ul>
 
@@ -172,7 +172,7 @@
                   <span class="glyphicon glyphicon-star-empty white"></span>
                 </div>
                 <div class="media-body">
-                  <a href="#">Supplemental Instruction Review (UMass LRC)</a>
+                  <a href="#" class = "right-events">Supplemental Instruction Review (UMass LRC)</a>
                 </div>
               </li>
               <li class="media">
@@ -180,7 +180,7 @@
                   <span class="glyphicon glyphicon-star-empty white"></span>
                 </div>
                 <div class="media-body">
-                  <a href="#">UMass vs. BC Hockey Game (UMass Althetics)</a>
+                  <a href="#" class = "right-events">UMass vs. BC Hockey Game (UMass Althetics)</a>
                 </div>
               </li>
               <li class="media">
@@ -188,7 +188,7 @@
                   <span class="glyphicon glyphicon-star-empty white"></span>
                 </div>
                 <div class="media-body">
-                  <a href="#">Campus Barbeque (UMass Alumni Association)</a>
+                  <a href="#" class = "right-events">Campus Barbeque (UMass Alumni Association)</a>
                 </div>
               </li>
             </ul>

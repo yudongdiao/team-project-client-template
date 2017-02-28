@@ -1,5 +1,4 @@
-
-
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -25,7 +24,7 @@
 
      Confused? Try switching between the two container classes once you have a
      complete navbar to see the difference. -->
-<div class="container">
+<div class="container-fluid">
   <!-- This code is only active when viewing the site on mobile. We will not
        cover responsive design, but we'll leave this in, as it's part of the
        example code.-->
@@ -72,7 +71,7 @@
               <span class="glyphicon glyphicon-calendar"></span>
             </button>
             <button type="button" class="btn btn-default navbar-btn">
-              <span class="glyphicon glyphicon-map-marker"></span>
+              <span class="glyphicon glyphicon-plus"></span>
             </button>
         </div>
         <div class="btn-group" role="group">
@@ -96,13 +95,26 @@
 </nav>
 
 
-
-
 <div class="calendar">
   <header>
-    <button>«</button>
-    <h2>February 2017</h2>
-    <button>»</button>
+    <button class="arrows">«</button>
+    <h2>February 2017   -
+      <span style ="font-weight:lighter"> My Events </span>
+      <div class="dropdown">
+        <span>Filter Events &#9663
+        </span>
+        <div class="dropdown-content">
+          <p>All Events</p>
+          <p>My Events</p>
+          <p>Athletics</p>
+          <p>Arts</p>
+          <p>Educational</p>
+        </div>
+      </div>
+
+
+    </h2>
+    <button class="arrows">»</button>
   </header>
 <table>
   <tr>
@@ -146,13 +158,16 @@
     <td>20</td>
     <td class="event">
       21
-      <span style="font-size:110%;color:yellow;">&star; </span>
+      <span style="font-size:110%;color:yellow;">&star; </span> </br>
+      Supplemental Instruction Review <i> 5pm </i> LRC
     </td>
     <td>22</td>
     <td>23</td>
     <td class="event">
       24
-      <span style="font-size:110%;color:yellow;">&star; </span>
+      <span style="font-size:110%;color:yellow;">&star; </span> </br>
+      UMass vs. BC Hockey Game <i> 7pm </i> Mullins Center
+
   </td>
     <td>25</td>
   </tr>
@@ -165,4 +180,8 @@
     <td></td>
     <td></td>
 </div>
+
+
+
+
 </body>
