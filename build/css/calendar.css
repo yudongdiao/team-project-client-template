@@ -1,14 +1,4 @@
-    body {
-      line-height: 1.5;
-      margin: 30px;
-      background-color: #a43939;
-    }
-
-    .white {
-      color: white;
-    }
-
-    .navbar {
+.navbar {
       background-color: #470000;
       border-color: #470000;
     }
@@ -18,7 +8,14 @@
       background-color: black;
       border-color: black;
     }
-
+    .white {
+      color: white;
+    }
+    body {
+      line-height: 1.5;
+      margin: 30px;
+      background-color: #a43939;
+    }
     .calendar {
       border-radius: 5px;
       box-sizing: border-box;
@@ -26,24 +23,9 @@
       width: 100%;
       height: 500px;
     }
-
-    button {
-      position: absolute;
-      top: 10px;
-      background-color: white;
-    }
-
-        button:first-child {
-          left: 0;
-        }
-        button:last-child {
-          right: 0;
-        }
-
     header {
     position: relative;
     }
-
     h2 {
       font-family: 'PT Sans Narrow', sans-serif;
       color: white;
@@ -52,8 +34,7 @@
       margin: 10px 20px 20px;
       text-align: center;
     }
-
-    table {
+table {
       background: #DCDCDC;
       border-collapse: collapse;
       color: #222;
@@ -63,13 +44,11 @@
       height: 95%;
       table-layout: fixed;
     }
-
     td {
       border: 1px solid black;
       text-align: right; vertical-align: top;
       padding-right: 5px;
     }
-
     tr:first-child td {
       color: #222;
       font-weight: 900;
@@ -77,18 +56,15 @@
       text-align: center; vertical-align: middle;
 
     }
-
     .event{
       background-color: #ADD8E6;
       font-weight: bold;
       border-style: outset;
       box-shadow: 0 2px 2px grey inset;
     }
-    .star{
+.star{
       text-align: right;
     }
-
-
 .dropdown {
     position: relative;
     display: inline-block;
@@ -113,3 +89,17 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.arrows {
+      position: absolute;
+      top: 10px;
+      background-color: white;
+      padding:5px;
+    }
+
+        button:first-child {
+          left: 0;
+        }
+        button:last-child {
+          right: 0;
+        }
