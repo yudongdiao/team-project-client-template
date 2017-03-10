@@ -1,10 +1,86 @@
 body {
   padding-top: 60px;
+  background: linear-gradient(90deg, #a43939 80%, #8e0000 20%);
 }
+
+
+.right-events {
+  color: black;
+  font-weight: bold;
+}
+
+.sidebar-pills{
+  margin-top: 28%;
+}
+
+.navbar {
+  background-color: #470000;
+  border-color: #470000;
+}
+
+.maroon {
+  background-color: #8e0000;
+}
+
+.black {
+  color: black;
+  font-weight: 700;
+}
+
+.navbar-btn {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+/*navbar-btn: add this class to all nav bar buttons*/
+
+/*make home button white*/
+/*add in right sidebar - fix on html file: make sure that the row is split into 9 and 3 columns (</div> is in the wrong place)*/
+
+
+
+.media-body >
+a {
+  color: black;
+  font-weight: bold;
+}
+
+.grey {
+  color: darkgrey;
+}
+
+.white{
+  color: white;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-radius: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .event-entry {
   border-width: thick;
-  border-color: #990000;
+  border-color: #470000;
 }
 
 .entry-font {
@@ -28,20 +104,26 @@ body {
 
 .favorite-event:hover {
   /*background: #ffff1a;*/
-  background-color: #ffff1a;
-  color: #00ff00;
+  background-color: none;
+  color: #cccc00;
 }
 
 .break {
   border-width: 2px;
-  border-color: #990000;
+  border-color: #470000;
   padding: 0;
-  margin-bottom: 7px;
-  margin-top: 7px;
+  margin-bottom: 11px;
+  margin-top: 11px;
 }
+
 
 .features-bar {
   border-top: 0px;
   margin-bottom: 0px;
   margin-bottom: 0px;
+}
+
+.black {
+  color: black;
+  font-weight: 700;
 }

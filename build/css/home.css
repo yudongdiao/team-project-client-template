@@ -1,22 +1,37 @@
 body {
   padding-top: 60px;
+  background: linear-gradient(90deg, #a43939 80%, #8e0000 20%);
+  /*background-color: #8e0000;*/
 }
 
-.sbtn-group{
-  position: fixed;
-  bottom: 0px;
-  right: 20px;
-  /* Applies the given border style to all sides. */
-  border: 1px solid #000;
-  /* Removes the border on the bottom. */
-  border-bottom: none;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
+.navbar {
+  background-color: #470000;
+  border-color: #470000;
 }
+
+.white {
+  color: white;
+}
+
+.maroon {
+  background-color: #8e0000;
+}
+
+.black {
+  color: black;
+  font-weight: 700;
+}
+
+.navbar-btn {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+
 
 .goodell_lawn {
   position: absolute;
-  top: 52%;
+  top: 53%;
   left: 42%;
   font-size: 25px;
   color: yellow;
@@ -26,7 +41,7 @@ body {
 
 .newman {
   position: absolute;
-  top: 58%;
+  top: 60%;
   left: 59%;
   font-size: 25px;
   color: yellow;
@@ -36,7 +51,7 @@ body {
 
 .northeast {
   position: absolute;
-  top: 29%;
+  top: 33%;
   left: 54%;
   font-size: 25px;
   color: yellow;
@@ -44,24 +59,44 @@ body {
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
-.red {
-  color: red;
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-radius: 10%;
 }
 
-.green{
-  color: green;
+/*.media-body >*/
+/*a {
+  color: white;
+}*/
+
+.date {
+  color: black;
 }
 
-.yellow {
-  /*not quite yellow*/
-  color: #E8CC71;
+
+.right-events {
+  color: black;
+  font-weight: bold;
 }
 
-.grey {
-  color: #A6C8E8
-}
+.center-date {
+    margin: auto;
+    width: 33%;
+    color: black;
+    font-weight: bold;
+    /*background: white;*/
+  }
 
-.form-control-xxx {
-  width:200px;
-  display:inline;
-}
+  /*.event-list{
+  margin-left: 0px;
+  margin-top : 4%;
+  }*/
+
+  .sidebar-pills{
+    margin-top: 28%;
+  }

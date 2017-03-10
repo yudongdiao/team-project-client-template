@@ -1,10 +1,68 @@
 body {
   padding-top: 60px;
+  background: linear-gradient(90deg, #a43939 80%, #8e0000 20%);
+
+  /*background-color: #8e0000;*/
+}
+
+.navbar {
+  background-color: #470000;
+  border-color: #470000;
+}
+
+.black {
+  color: black;
+  font-weight: 700;
+}
+
+.white {
+  color: white;
+}
+
+.media-body:hover >
+a {
+  color: black;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-radius: 10%;
+}
+
+.event-links {
+  color: black;
+  font-weight: bold;
+
+
+}
+
+.event-links:hover {
+  color: #8e0000;
+}
+
+.right-events {
+  color: black;
+  font-weight: bold;
+}
+
+.sidebar-pills{
+  margin-top: 28%;
+}
+
+
+.navbar-btn {
+  color: white;
+  background-color: black;
+  border-color: black;
 }
 
 .event-entry {
   border-width: thick;
-  border-color: #990000;
+  border-color: #470000;
 }
 
 .entry-font {
@@ -28,16 +86,16 @@ body {
 
 .favorite-event:hover {
   /*background: #ffff1a;*/
-  background-color: #ffff1a;
-  color: #00ff00;
+  background-color: none;
+  color: #cccc00;
 }
 
 .break {
   border-width: 2px;
-  border-color: #990000;
+  border-color: #470000;
   padding: 0;
-  margin-bottom: 7px;
-  margin-top: 7px;
+  margin-bottom: 11px;
+  margin-top: 11px;
 }
 
 .features-bar {
